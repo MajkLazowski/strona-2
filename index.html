@@ -1,17 +1,28 @@
-<html lang="pl">
+<html lang="pl"></html>
     <head>
         <meta charset="utf8">
         <title>tworzenie stron i aplikacji internetowych</title>
     </head>
     <body>
         <table>
-            <style> 
-                table, th, td { 
-                border: 1px solid black; 
-                } 
-            </style>                
-            <tr><td>Projekt</td><td>Data</td></tr>
-            <tr><td><a href="https://github.com/MajkLazowski/strona-2">link</td><td>10.09.2024</td></tr>
+            <style>
+                table {
+                  border-collapse: separate;
+                  border-spacing: 0;
+                  width: 50%;
+                  border: 1px solid #ddd;
+                  border-radius: 5px;
+                }
+                
+                th, td {
+                  text-align: left;
+                  padding: 8px;
+                }
+                
+                tr:nth-child(even) {background-color: #f2f2f2;}
+                </style>               
+            <tr><td>lp</td><td>Projekt</td><td>miniaturka</td><td>Data</td></tr>
+            <tr><td>1.</td><td><a href="https://github.com/MajkLazowski/strona">projekt 1</td><td><img src="mini1.png" alt="miniaturka" width="500" height="300"></td><td>5.09.2024</td></tr>
         </table>
     </body>
 </html>
